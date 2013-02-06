@@ -98,7 +98,9 @@
     
     [_game gameDeal];
     _game = nil;
+    [self updateUI];
     _gameTypeControl.enabled=YES;//Task 4;
+    
     
 }
 
